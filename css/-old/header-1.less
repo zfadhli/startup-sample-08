@@ -1,0 +1,74 @@
+.header-1 {
+  >.nnav {
+    z-index: 1;
+  }
+  >.nnav>.navbar-main {
+    padding-top: 4.8rem;
+  }
+  >.nnav>.navbar-main>.navbar-title>img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1.6rem;
+  }
+  >.nnav>.navbar-main>.navbar-title>a {
+    color: @color-light;
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+  }
+  >.nnav>.navbar-main>.navbar-link>a {
+    color: @color-light !important;
+    .text-uppercase;
+  }
+}
+
+.owl-carousel {
+  position: relative;
+  z-index: 0;
+  margin-top: -98px;
+}
+
+.owl-item {
+  .item {
+    height: 500px;
+  }
+  .item>.wrapper {
+    position: relative;
+    bottom: -24rem;
+  }
+  .item>.wrapper>h3 {
+    color: @color-light;
+  }
+  .item>.wrapper>p {
+    color: @color-light;
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+  >.item-1 {
+    .image-overlay('../img/img-1.jpg');
+  }
+  >.item-2 {
+    .image-overlay('../img/img-2.jpg');
+  }
+  >.item-3 {
+    .image-overlay('../img/img-3.jpg');
+  }
+}
+
+.owl-theme>.owl-nav {
+  margin-top: -8rem;
+  margin-bottom: 4rem;
+  text-align: left;
+}
+
+.owl-theme>.owl-nav>[class*='owl-'] {
+  background: transparent;
+  display: inline-block;
+  margin: 0 1.6rem 0 0;
+  padding: 0;
+  color: @color-light;
+  font-size: 2.4rem;
+  cursor: pointer;
+  &:hover {
+    background: transparent;
+  }
+}

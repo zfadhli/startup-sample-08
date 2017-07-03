@@ -1,0 +1,25 @@
+.content-25 {
+  padding: 8rem 0;
+  >.wrapper>.columns>.feature-left>p {
+    margin-top: 4rem;
+    font-size: 1.8rem;
+  }
+  >.wrapper>.columns>.feature-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  >.wrapper>.columns>.feature-right>img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 840px) {
+  .content-25 {
+    >.wrapper>.columns>.feature-right {
+      justify-content: center;
+    }
+    >.wrapper>.columns>.feature-right>img {
+      height: 350px;
+    }
+  }
+}
